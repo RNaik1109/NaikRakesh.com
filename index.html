@@ -6,47 +6,94 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body {
-			font-family: sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		.container {
-			width: 100%;
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 1rem;
-		}
-		.section {
-			margin-bottom: 1rem;
-		}
-		.section h2 {
-			margin-top: 0;
-			margin-bottom: 0.5rem;
-		}
-		.section h3 {
-			margin-top: 0;
-			margin-bottom: 0.5rem;
-			font-size: 1.2rem;
-			font-weight: bold;
-		}
-		.item {
-			margin-bottom: 0.5rem;
-		}
-		.item .label {
-			display: inline-block;
-			font-weight: bold;
-			min-width: 150px;
-		}
-		.item .value {
-			display: inline-block;
-		}
-		.item .value a {
-			color: blue;
-			text-decoration: none;
-		}
-		.item .value a:hover {
-			text-decoration: underline;
-		}
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item {
+  margin-bottom: 0.5rem;
+}
+
+.item .label {
+  display: inline-block;
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.item .value {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.item .value a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.item .value a:hover {
+  text-decoration: underline;
+}
+
+h4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
 	</style>
 </head>
 <body>
@@ -62,7 +109,7 @@
 			<h2>Contact &amp; Personal</h2>
 			<div class="item">
 				<span class="label">Address:</span>
-				<span class="value">Rakesh Naik, MSc. in Physics</span><img src="rakesh.jpg" alt="Rakesh Naik">
+				<span class="value">Rakesh Naik, MSc. in Physics</span><img src="rakesh.jpg"style="width: 100px; height: 150px;" alt="Rakesh Naik">
 			</div>
 			<div class="item">
 				<span class="label">Email:</span>
